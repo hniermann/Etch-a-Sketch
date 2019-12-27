@@ -1,0 +1,12 @@
+:root{
+    --rowNum: 4;
+    --colNum: 4;
+}
+#main {
+    display: grid;
+    justify-self: left;
+    grid-template-rows: repeat(var(--rowNum), auto);
+    grid-template-columns: repeat(var(--colNum), auto);
+    height: 550px;
+    width: 550px;
+}
